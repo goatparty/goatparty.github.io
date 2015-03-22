@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100italic,100,400italic,700,700italic);
 
 body{
-	background-color:#607D8B;
+	background-color:#f44336;
 }
 .welcome{
 	font-family:'Roboto';
@@ -10,9 +10,7 @@ body{
 	color:white;
 	
 }
-.goatwell2{
-	background-image: url("goatwell.png");
-}
+
 
 .goatwell{
 	width: 100%;
@@ -24,8 +22,13 @@ body{
 .arrow{
 	height:100px;
 	width: auto;
-	margin: 200px;
+	margin: 100px;
 	
+}
+.goatContainer{
+	background-color:#607D8B;
+	margin-bottom:100px;
+	box-shadow: 0px 10px 20px black;
 }
 /* ============================================================
   PRIMARY STRUCTURE
@@ -75,7 +78,7 @@ section.module.parallax h1 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 10px grey;
 }
 section.module.parallax-1 {
   background-image:  url("goat1.jpg");
@@ -111,6 +114,19 @@ h6{
 	font-style:italic;
 }
 .goatmedal{
-	width: 300px;
+	width: 400px;
 	height:auto;
+	
+}
+.swag{
+	box-shadow: 0px 10px 20px black;
+	background-color:#607D8B;
+	margin-left:280px;
+	margin-right:280px;
+}
+.scroll{
+	box-shadow: 0px 5px 20px black;
+	background-color:#607D8B;
+	margin-left:475px;
+	margin-right:475px;
 }
